@@ -12,10 +12,12 @@ package memory;
 public class Carta{
     private String personaje;
     private int id;
+    private boolean girada;
 
-    public Carta(String personaje, int id){
-        this.personaje=personaje;
-        this.id=id;
+    public Carta(String personaje, int id, boolean girada){
+        this.personaje = personaje;
+        this.id = id;
+        this.girada = false;
     }
     
     public String getPersonaje(){
@@ -25,9 +27,11 @@ public class Carta{
     public int getId(){
         return id;
     }
-
+    public void setGirada(){
+           girada=true;
+       }
     public String toString(){
         String datos="";
-        return datos+"id"+id+"personaje"+personaje;
+        return datos+"id: "+id+" "+"personaje"+" "+personaje+" "+"Esta girada: "+girada;
     }
 }

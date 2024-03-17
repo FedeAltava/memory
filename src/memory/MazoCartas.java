@@ -1,6 +1,4 @@
 package memory;
-
-
 import java.util.ArrayList;
 import java.util.Collections;
 

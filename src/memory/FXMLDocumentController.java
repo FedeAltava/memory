@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package memory;
-
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -38,10 +37,7 @@ public class FXMLDocumentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         String vec[][];
-     
-       
         Gestor_conexion_POSTGRE gestor= new Gestor_conexion_POSTGRE("memory",true);
-   
         vec=Bd.consultaSelect(gestor, "select * from jugadores");
         gestor.cerrar_Conexion(true);
         if(vec!=null)

@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package memory;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -20,9 +19,7 @@ public class Memory extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }
@@ -36,15 +33,15 @@ public class Memory extends Application {
         MazoCartas mazo = new MazoCartas();
 
         // Crear las cartas individuales
-        Carta bart = new Carta("Bart", 1);
-        Carta gafas = new Carta("Gafas", 2);
-        Carta jimbo = new Carta("Jimbo", 3);
-        Carta discoStu = new Carta("DiscoStu", 4);
-        Carta jeff = new Carta("Jeff", 5);
-        Carta nick = new Carta("Nick", 6);
-        Carta frink = new Carta("Frink", 7);
-        Carta nelson = new Carta("Nelson", 8);
-        Carta comodin = new Carta("Comodin", 9);
+        Carta bart = new Carta("Bart", 1,false);
+        Carta gafas = new Carta("Gafas", 2,false);
+        Carta jimbo = new Carta("Jimbo", 3,false);
+        Carta discoStu = new Carta("DiscoStu", 4,false);
+        Carta jeff = new Carta("Jeff", 5,false);
+        Carta nick = new Carta("Nick", 6,false);
+        Carta frink = new Carta("Frink", 7,false);
+        Carta nelson = new Carta("Nelson", 8,false);
+        Carta comodin = new Carta("Comodin", 9,false);
         
         // Agregar las cartas al mazo
         mazo.agregarCarta(bart);
