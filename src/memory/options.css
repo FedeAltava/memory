@@ -1,0 +1,15 @@
+
+.body{
+    -fx-background-image: url(file:/C:/Users/aronbp/Desktop/ABP/media/options.png);
+    -fx-background-size:100%;
+    -fx-background-position: center;
+    -fx-background-repeat:no-repeat;
+}
+
+.button{
+	-fx-background-color:rgba(187, 212, 42, 0.8);
+	-fx-background-radius:50px;
+    -fx-border-radius:50px;
+    -fx-border-color:white;
+}
+
