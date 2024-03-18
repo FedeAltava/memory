@@ -1,13 +1,13 @@
 
 .body{
-	-fx-background-image:url(file:/C:/Users/aronbp/Desktop/ABP/media/sky.jpg);
+	-fx-background-image:url("sky.jpg");
 	-fx-background-size:100%;
     -fx-background-position: contain;
     -fx-background-repeat:no-repeat;
 }
 
 .imagen{
-    -fx-background-image:url(file:/C:/Users/aronbp/Desktop/ABP/media/tomphy.png);
+    -fx-background-image:url("tomphy.png");
 	-fx-background-size:100%;
     -fx-background-position: contain;
     -fx-background-repeat:no-repeat;

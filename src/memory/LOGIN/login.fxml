@@ -29,15 +29,15 @@
         </rowConstraints>
          <children>
             <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="login" stylesheets="@../login.css" text="LOGIN" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="login" stylesheets="@../login.css" text="LOGIN" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="login" stylesheets="@login.css" text="LOGIN" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="login" stylesheets="@login.css" text="LOGIN" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
             <PasswordField layoutX="127.0" layoutY="174.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
             
          </children>
       </GridPane>
    </children>
    <stylesheets>
-      <URL value="@../login.css" />
+      <URL value="@login.css" />
       <URL value="@login.css" />
    </stylesheets>
 </AnchorPane>
